@@ -1,0 +1,27 @@
+---- Compile the program:
+
+	make
+
+
+---- Run the program:
+
+	./a.out [Data Structure] [alpha/probability]
+
+(if for some reason it looks like it's stuck just ctrl+c and try again.
+- No memory leaks are detected by the g++ compiler or Valgrind. It can occur randomly on the IMADA machines)
+---- Options:
+
+	[Data Structures]: SL 	for Skiplist.
+			  SGT 	for Scapegoat Tree.
+
+
+---- Clean up:
+	
+	make clean
+
+
+---- Examples:
+
+	./a.out SL 0.5 < ../results/input.txt
+
+	./a.out SGT 0.6 < ../results/input.txt
